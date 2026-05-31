@@ -1,1 +1,28 @@
-"Where Is It?" is a high-fidelity, responsive web application custom-engineered for university ecosystems to streamline the tracking, reporting, and recovery of lost student property. The platform serves as a centralized, secure digital bridge between students who have lost their belongings and the unofficial finders or campus security personnel who recover them on university territory.By replacing chaotic social media spam groups and traditional notice boards, the system introduces automated matching grids, real-time image uploads, and structural data accountability to campus lost-and-found workflows.🎨 Key Features & User InterfacePremium Obsidian Aesthetic: The interface moves away from standard blinding academic designs, utilizing an ultra-premium dark mode gradient layout (Prussian Blue to Midnight Blue) paired with a high-tech translucent glassmorphic navigation header.Dual-Pipeline Hub: The dashboard splits user workflows into two isolated tracks: an active public feed for Unclaimed Found Inventory (complete with live image displays) and a private track for student Missing Property Logs.Smart Omnibox Category Search: Includes an interactive search input bar with an automated dropdown menu that maps database categories dynamically, allowing students to filter out irrelevant posts instantly.Context-Isolated Discussions: Sighting updates and community comments are mapped using specific individual entity tracking keys, ensuring that a brand-new post starts with zero comment bleeding.Secure QR Verification Handshake: Integrates a simulated cryptographic verification token module. To claim an object, owners present a dynamic tracking code at the campus security desk; when the guard scans it, the database status updates instantly, and the post permanently vanishes from the live feed.💻 Technical Stack & Engineering BackboneFrontend Architecture: Procedural Semantic HTML5, Custom CSS3 Grid/Flexbox layouts (with fully responsive viewports), and asynchronous Vanilla JavaScript (ES6) for panel drawing animations and tab control filters.Backend Core: PHP 8.x featuring dynamic relational data parsing, form token sanitization, and structured file relocation handlers (move_uploaded_file) with unique timestamp hashing to prevent image filename collisions.Database Management System (DBMS): Relational MySQL architecture running on an InnoDB storage engine.Normalization: Normalized strictly to Third Normal Form (3NF) to completely eliminate data redundancy and preserve cross-table referential integrity.Query Optimization: Leverages B-Tree Data Structure Indexing on all Primary Keys, cutting query execution speeds down from slow linear scans ($O(n)$) to ultra-fast logarithmic efficiency ($O(\log n)$) to handle large volumes of concurrent student data seamlessly.
+### GitHub Repository Description
+
+**Where Is It?** is a high-fidelity, responsive Lost & Found web application designed specifically for university environments. The platform provides a centralized and secure system for reporting, tracking, and recovering lost property, connecting students, campus security personnel, and item finders through a streamlined digital workflow.
+
+The system replaces fragmented social media posts and traditional notice boards with a structured platform featuring real-time item reporting, image uploads, intelligent search capabilities, and secure claim verification. By improving visibility, accountability, and communication, it increases the likelihood of successful item recovery across campus.
+
+#### Features
+
+* Responsive and modern glassmorphic user interface with a premium dark-theme design.
+* Dedicated workflows for **Missing Items** and **Found Items** management.
+* Real-time image uploads for improved item identification.
+* Smart category-based search and filtering system.
+* Context-specific discussion threads linked to individual item reports.
+* QR-based verification workflow for secure item claims.
+* Automated status updates and item lifecycle management.
+* Secure file handling and form validation mechanisms.
+
+#### Technology Stack
+
+* **Frontend:** HTML5, CSS3, JavaScript (ES6)
+* **Backend:** PHP 8.x
+* **Database:** MySQL (InnoDB)
+* **Architecture:** Relational database design normalized to Third Normal Form (3NF)
+* **Performance:** B-Tree indexed primary keys for efficient data retrieval and scalability
+
+#### Objective
+
+To modernize university lost-and-found operations through a secure, scalable, and user-friendly platform that simplifies the reporting, tracking, verification, and recovery of lost belongings.
