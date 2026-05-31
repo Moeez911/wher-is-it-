@@ -1,4 +1,3 @@
-### GitHub Repository Description
 
 **Where Is It?** is a high-fidelity, responsive Lost & Found web application designed specifically for university environments. The platform provides a centralized and secure system for reporting, tracking, and recovering lost property, connecting students, campus security personnel, and item finders through a streamlined digital workflow.
 
