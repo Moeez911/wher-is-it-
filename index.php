@@ -70,7 +70,7 @@ $lost_items = $pdo->query($lost_sql)->fetchAll();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Where Is It? — Campus Lost & Found Portal</title>
-    <link rel="stylesheet" href="Assets/css/style.css?v=110">
+    <link rel="stylesheet" href="Assets/css/style.css">
     <style>
         .search-wrapper { position: relative; margin-bottom: 30px; width: 100%; }
         .search-bar { width: 100%; padding: 16px 24px; font-size: 1rem; border: 2px solid var(--border); border-radius: var(--radius); outline: none; background: rgba(255,255,255,0.05); color: white; transition: all 0.2s; }
@@ -80,6 +80,22 @@ $lost_items = $pdo->query($lost_sql)->fetchAll();
         .search-dropdown a:hover { background: rgba(255,255,255,0.05); color: var(--accent); }
         .clickable-card { text-decoration: none; color: inherit; display: flex; flex-direction: column; }
         select.form-input option { background-color: #101235 !important; color: #ffffff !important; padding: 10px; }
+        
+        /* Local Override Fixes for Drawers/Forms */
+        .drawer { 
+            position: fixed; 
+            top: 0; 
+            right: -450px; 
+            width: 450px; 
+            height: 100%; 
+            background: #0f1130; 
+            box-shadow: -5px 0 15px rgba(0,0,0,0.5); 
+            transition: right 0.3s ease; 
+            z-index: 9999; 
+            padding: 30px; 
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
     </style>
 </head>
 <body>
