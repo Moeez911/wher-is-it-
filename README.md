@@ -26,12 +26,12 @@ View items reported as lost by other students, each marked with a "SEARCHING" st
 ### Item Detail / Case Registry
 Each item has a dedicated detail page showing case metadata (reference track, classification, status, contact info) and a QR-based ownership verification option.
 
-![Item Detail Page](8.png)
+![Item Detail Page](images/8.png)
 
 ### Search Functionality
 Quickly search through found items using keywords (e.g., "laptop") to find matching results.
 
-![Search Results](9.png)
+![Search Results](images/9.png)
 
 ### Sign In
 Existing users can log in using their university email and password to access full features like commenting and reporting.
